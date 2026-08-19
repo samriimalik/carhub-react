@@ -1,0 +1,2 @@
+import {Navigate,useLocation} from "react-router-dom";
+export default function ProtectedRoute({children}){const location=useLocation();const ok=localStorage.getItem("carhub_logged_in")==="true";return ok?children:<Navigate to="/login" replace state={{from:location.pathname}}/>}

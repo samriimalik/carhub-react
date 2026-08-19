@@ -1,0 +1,6 @@
+export const cars=[
+{id:"bmw-m4",name:"BMW M4",type:"Sports",price:85000,speed:"250 km/h",fuel:"Petrol",image:"https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1000&q=85",description:"A performance-focused coupe with a premium interior and confident road presence."},
+{id:"mercedes-amg",name:"Mercedes AMG",type:"Luxury",price:95000,speed:"280 km/h",fuel:"Petrol",image:"https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1000&q=85",description:"Luxury, technology and performance combined in one elegant driving experience."},
+{id:"audi-r8",name:"Audi R8",type:"Supercar",price:120000,speed:"300 km/h",fuel:"Petrol",image:"https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1000&q=85",description:"A dramatic high-performance car built for an unforgettable driving experience."},
+{id:"porsche-911",name:"Porsche 911",type:"Sports",price:110000,speed:"293 km/h",fuel:"Petrol",image:"https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=85",description:"An iconic sports car blending timeless design, precision and everyday usability."}
+];

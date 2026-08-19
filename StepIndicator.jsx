@@ -1,0 +1,1 @@
+export default function StepIndicator({currentStep}){return <div className="steps">{["Personal Info","Car Selection","Confirmation"].map((x,i)=>{let n=i+1;return <div className={`step ${currentStep>=n?"done":""}`} key={x}><span>{n}</span><small>{x}</small></div>})}</div>}
